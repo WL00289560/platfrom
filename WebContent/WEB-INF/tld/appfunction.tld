@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd"
+  version="2.0">
+    
+  <description>Application Function Library</description>
+  <display-name>platfrom App</display-name>
+  <tlib-version>1.0</tlib-version>
+  <short-name>fn</short-name>
+  <uri>http://www.platfrom.com.tw/functions</uri>
+  
+  <function>
+  	<description>標註</description>
+  	<display-name>反白</display-name>
+  	<name>mark</name>
+  	<function-class>platfrom.tag.Mark</function-class>
+  	<function-signature>java.lang.String markTag(java.lang.String)</function-signature>
+  </function>
+  
+  <function>
+  	<description>新增客戶</description>
+  	<display-name>自動封裝</display-name>
+  	<name>AddCustomer</name>
+  	<function-class>platfrom.tag.AddCustomersFunction</function-class>
+  	<function-signature>java.lang.String addCustomers(platfrom.domain.AddCustomers,javax.servlet.ServletContext)</function-signature>
+  </function>
+
+</taglib>

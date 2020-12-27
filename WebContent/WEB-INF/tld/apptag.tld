@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd"
+  version="2.0">
+    
+  <description>Application Tag Library</description>
+  <display-name>Try App</display-name>
+  <tlib-version>1.0</tlib-version>
+  <short-name>tag</short-name>
+  <uri>http://www.platfrom.com.tw/tag</uri>
+  
+ 	<tag>
+ 		<description>連結</description>
+ 		<display-name>前往首頁</display-name>
+ 		<name>goToIndex</name>
+ 		<tag-class>platfrom.tag.LinkToIndex</tag-class>
+ 		<body-content>empty</body-content> 		
+ 	</tag>
+ 	<tag>
+ 		<display-name>前往會員區首頁</display-name>
+ 		<name>goToVipIndex</name>
+ 		<tag-class>platfrom.tag.LinkToVipIndex</tag-class>
+ 		<body-content>empty</body-content> 		
+ 	</tag>
+  	<tag>
+ 		<display-name>前往註冊頁面</display-name>
+ 		<name>goToRegister</name>
+ 		<tag-class>platfrom.tag.LinkToRegister</tag-class>
+ 		<body-content>empty</body-content> 		
+ 	</tag>
+ 	<tag>
+ 		<display-name>前往登入頁面</display-name>
+ 		<name>goToLogin</name>
+ 		<tag-class>platfrom.tag.LinkToLogin</tag-class>
+ 		<body-content>empty</body-content> 		
+ 	</tag>
+ 	<tag>
+ 		<display-name>前往查詢廠商頁面(模組化架構)</display-name>
+ 		<name>goToVender</name>
+ 		<tag-class>platfrom.tag.LinkToVender</tag-class>
+ 		<body-content>empty</body-content> 		
+ 	</tag>
+ 	<tag>
+ 		<display-name>前往查詢廠商頁面(分散式架構)</display-name>
+ 		<name>goToVenderJax</name>
+ 		<tag-class>platfrom.tag.LinkToVenderJax</tag-class>
+ 		<body-content>empty</body-content> 		
+ 	</tag>
+ 	<tag>
+ 		<display-name>前往財務報表頁面</display-name>
+ 		<name>goToReport</name>
+ 		<tag-class>platfrom.tag.LinkToReport</tag-class>
+ 		<body-content>empty</body-content> 		
+ 	</tag>
+ 	<tag>
+ 		<display-name>前往新增客戶資料頁面</display-name>
+ 		<name>goToAddCustomers</name>
+ 		<tag-class>platfrom.tag.LinkToAddCustomers</tag-class>
+ 		<body-content>empty</body-content> 		
+ 	</tag>
+ 	<tag>
+ 		<display-name>前往拋出錯誤代碼(500)頁面</display-name>
+ 		<name>goToThrowsErrorCode</name>
+ 		<tag-class>platfrom.tag.LinkToErrorPage500</tag-class>
+ 		<body-content>empty</body-content> 		
+ 	</tag>
+ 	
+ 	
+ 	<tag>
+ 		<description>迴圈</description>
+ 		<display-name>紀錄執行次數</display-name>
+ 		<name>iterationTag</name>
+ 		<tag-class>platfrom.tag.IterationTag</tag-class>
+ 		<body-content>JSP</body-content> 	
+ 		<attribute>
+ 		<description>執行次數</description>
+ 		<name>counter</name>
+ 		<required>true</required>
+ 		<rtexprvalue>true</rtexprvalue>
+ 		<type>java.lang.Intger</type>
+ 		</attribute>	
+ 	</tag>
+ 	
+</taglib>
+  
