@@ -19,7 +19,7 @@ public class LinkToReport implements Tag{
 	@Override
 	public int doStartTag() throws JspException {
 		JspWriter out = pageContext.getOut();
-		String content = "<input type=\"button\" value=\"財務報表頁面\" onclick=\"location.href='http://localhost:8080/platfrom/member/report.jsp'\">";
+		String content = "<input type=\"button\" value=\"財務報表頁面\" style=\"width:130px;height:40px\" onclick=\"location.href='http://localhost:8080/platfrom/member/report.jsp'\">";
 		try {
 			out.print(content);
 		} catch (IOException e) {

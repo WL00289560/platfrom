@@ -19,7 +19,7 @@ public class LinkToRegister implements Tag{
 	@Override
 	public int doStartTag() throws JspException {
 		JspWriter out = pageContext.getOut();
-		String content = "<input type=\"button\" value=\"會員註冊\" onclick=\"location.href='http://localhost:8080/platfrom/register.jsp'\">";
+		String content = "<input type=\"button\" value=\"會員註冊\" style=\"width:130px;height:40px\" onclick=\"location.href='http://localhost:8080/platfrom/register.jsp'\">";
 		try {
 			out.print(content);
 		} catch (IOException e) {

@@ -16,7 +16,7 @@ mark{
 }
 </style>
 </head>
-<body>
+<body background="../images/background.jpg" bgcolor="#738291">
 	<h3>查詢資料總數:${ke:mark(requestScope.selectCountry.size())}</h3>
 	<c:if test="${requestScope.selectCountry.size() != 0}">
 		<table border="1" width = "100%">
@@ -41,6 +41,7 @@ mark{
 						<td align="left"><font color="red"><c:out value="${selectCountry.country}" default="out missing"></c:out></font></td>
 					</tr>
 				</c:forEach>
+				
 			</tbody>
 		</table>
 	</c:if>
@@ -48,7 +49,9 @@ mark{
 		<div style="color: red"><c:out value="查無資料,請更換條件" default="out missing"></c:out></div>
 	</c:if>
 	<br/>
-		
+	<img src="../images/MVC.JPG"  alt="圖片無法顯示" width="900px"/>	
+	<br/>
+	<br/>
 	<ket:goToVipIndex/>
 </body>
 </html>

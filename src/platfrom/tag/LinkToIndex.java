@@ -19,7 +19,7 @@ public class LinkToIndex implements Tag{
 	@Override
 	public int doStartTag() throws JspException {
 		JspWriter out = pageContext.getOut();
-		String content = "<input type=\"button\" value=\"­º­¶\" onclick=\"location.href='http://localhost:8080/platfrom'\">";
+		String content = "<input type=\"button\" value=\"­º­¶\" style=\"width:130px;height:40px\" onclick=\"location.href='http://localhost:8080/platfrom'\">";
 		try {
 			out.print(content);
 		} catch (IOException e) {

@@ -19,7 +19,7 @@ public class LinkToErrorPage500 implements Tag{
 	@Override
 	public int doStartTag() throws JspException {
 		JspWriter out = pageContext.getOut();
-		String content = "<input type=\"button\" value=\"給出錯誤代碼500\" onclick=\"location.href='http://localhost:8080/platfrom/throwserror.jsp'\">";
+		String content = "<input type=\"button\" value=\"給出錯誤代碼500\" style=\"width:130px;height:40px\" onclick=\"location.href='http://localhost:8080/platfrom/throwserror.jsp'\">";
 		try {
 			out.print(content);
 		} catch (IOException e) {

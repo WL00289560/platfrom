@@ -8,8 +8,8 @@
 <meta charset="UTF-8">
 <title>驗證失敗</title>
 </head>
-<body>
-	
+<body background="images/background.jpg" bgcolor="#738291">
+	<img src="images/register.JPG" alt="圖片無法顯示"  width="50%"/>
 	<h3 style="color:red;"><%=(String)request.getAttribute("content")%></h3> 
 	<br/>
 	<ket:goToIndex/>

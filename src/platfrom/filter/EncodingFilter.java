@@ -18,7 +18,7 @@ import javax.servlet.annotation.WebFilter;
 				DispatcherType.FORWARD, 
 				DispatcherType.INCLUDE
 		}
-					,description = "進出編碼設定", urlPatterns = { "/*" })
+					,description = "進出編碼設定", urlPatterns = { "/123" })
 public class EncodingFilter implements Filter {
 
     

@@ -43,7 +43,7 @@ public class LoingServlet extends HttpServlet {
 
 			if(member==null) {
 				String msg = "失敗";
-				String message = String.format("使用者:%s 驗證%s", username,msg);
+				String message = String.format("使用者:%s \n 驗證%s", username,msg);
 				request.setAttribute("message", message);
 				RequestDispatcher disp = request.getRequestDispatcher("loginvlid.jsp");
 				disp.forward(request, response);
