@@ -19,7 +19,7 @@ public class LinkToVender implements Tag{
 	@Override
 	public int doStartTag() throws JspException {
 		JspWriter out = pageContext.getOut();
-		String content = "<input type=\"button\" value=\"搜尋廠商資料頁面(模組化架構)\" style=\"height:40px\" onclick=\"location.href='http://localhost:8080/platfrom/member/vender.jsp'\">";
+		String content = "<input type=\"button\" value=\"搜尋廠商資料頁面(模組化架構)\" onclick=\"location.href='http://localhost:8080/platfrom/member/vender.jsp'\">";
 		try {
 			out.print(content);
 		} catch (IOException e) {

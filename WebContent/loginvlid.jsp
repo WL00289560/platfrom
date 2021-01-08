@@ -8,18 +8,10 @@
 <meta charset="UTF-8">
 <title>登入驗證</title>
 </head>
-<body background="images/background.jpg" bgcolor="#738291">
-
-	<fieldset>
-	<img src="images/login.JPG"  alt="圖片無法顯示" width="50%"/>
-	
-	<br/>
-	<font color="red" size="16px">
+<body>
+	<font color="red">
 	<c:out value="${message}" default="out missing"></c:out>
 	</font>
-	<br/>
-	
-	</fieldset>
 	<br/>
 	<ket:goToIndex/>	
 	<ket:goToVipIndex/>

@@ -19,7 +19,7 @@ public class LinkToAddCustomers implements Tag{
 	@Override
 	public int doStartTag() throws JspException {
 		JspWriter out = pageContext.getOut();
-		String content = "<input type=\"button\" value=\"新增客戶資料頁面\" style=\"width:130px;height:40px\" onclick=\"location.href='http://localhost:8080/platfrom/member/addcustomers.jsp'\">";
+		String content = "<input type=\"button\" value=\"新增客戶資料頁面\" onclick=\"location.href='http://localhost:8080/platfrom/member/addcustomers.jsp'\">";
 		try {
 			out.print(content);
 		} catch (IOException e) {

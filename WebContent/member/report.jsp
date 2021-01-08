@@ -7,7 +7,7 @@
 <meta charset="UTF-8">
 <title>財務報表</title>
 </head>
-<body background="../images/background.jpg" bgcolor="#738291">
+<body>
 	
 	<table>
 	<thead>此處模擬已確認擁有訪問會員區的許可權</thead>

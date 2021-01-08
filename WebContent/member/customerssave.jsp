@@ -8,16 +8,15 @@
 <meta charset="UTF-8">
 <title>客戶新增作業</title>
 </head>
-<body background="../images/background.jpg" bgcolor="#738291">
+<body>
 	<fieldset>
 		<% pageContext.setAttribute("app", application); %>
 		<jsp:useBean id="customers" class="platfrom.domain.AddCustomers"></jsp:useBean>
 		<jsp:setProperty property="*" name="customers"/>
 		${kef:AddCustomer(customers,app)}
+		<jsp:getProperty property="companyName" name="customers"/>
 	</fieldset>
-	<br/><br/>
-	<img src="../images/addcustomers.JPG"  alt="圖片無法顯示" width="900px"/>
-	<br/><br/>
+	<br/>
 	<ket:goToAddCustomers/>
 	<ket:goToVipIndex/>
 </body>

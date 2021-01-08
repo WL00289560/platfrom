@@ -7,12 +7,11 @@
 <meta charset="UTF-8">
 <title>JAX 廠商資料搜尋</title>
 </head>
-<body onload="init()" background="../images/background.jpg" bgcolor="#738291">
+<body onload="init()">
 	<fieldset>
-		<legend>請用英文輸入國家別(例:Taiwan/France)</legend>
+		<legend>國家別</legend>
 		<input type="text" id="country">
 		<input type="button" value="查詢" id="btnQry">
-		<br/><br/>
 			<table border="1" width="100%">
 				<thead>
 					<tr>
@@ -78,9 +77,6 @@
 		
 		</script>
 	</fieldset>
-	<br/><br/>
-	<img src="../images/separate_2.JPG"  alt="圖片無法顯示" width="900px"/>
-	<br/><br/>
 	<ket:goToVipIndex/>
 </body>
 </html>

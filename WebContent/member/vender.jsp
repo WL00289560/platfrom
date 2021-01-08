@@ -7,14 +7,13 @@
 <meta charset="UTF-8">
 <title>客戶資料查詢</title>
 </head>
-<body background="../images/background.jpg" bgcolor="#738291">
+<body>
 	<form method="post" action="VenderSelectController">
 		<fieldset>
 			<div>請用英文輸入國家別(例:Taiwan/France)</div>
 			<input type="text" name="country">	
 			<input type="submit" value="搜尋">
 		</fieldset>
-		<br/>
 	<ket:goToVipIndex/>
 	</form>
 </body>

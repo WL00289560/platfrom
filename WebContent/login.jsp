@@ -7,19 +7,14 @@
 <meta charset="UTF-8">
 <title>會員登入</title>
 </head>
-<body background="images/background.jpg" bgcolor="#738291">
+<body>
 	<form method="post" action="LoingServlet">
-		<fieldset>
-			<legend>會員登入</legend>
-			<div>會員帳號:</div>
-			<input type="text" name="username">
-			<div>會員密碼:</div>
-			<input type="password" name="password">
-			<br/>
-			<br/>
-			<input type="submit" style="width:100px;height:40px" value="登入">
-		</fieldset>
-		
+		<div>會員帳號:</div>
+		<input type="text" name="username">
+		<div>會員密碼:</div>
+		<input type="password" name="password">
+		<br/>
+		<input type="submit" value="登入">
 	</form>
 	<br/>
 	<ket:goToIndex/>

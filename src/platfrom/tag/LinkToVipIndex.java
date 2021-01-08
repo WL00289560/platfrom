@@ -19,7 +19,7 @@ public class LinkToVipIndex implements Tag{
 	@Override
 	public int doStartTag() throws JspException {
 		JspWriter out = pageContext.getOut();
-		String content = "<input type=\"button\" value=\"會員區首頁\" style=\"width:130px;height:40px\" onclick=\"location.href='http://localhost:8080/platfrom/member/vipindex.jsp'\">";
+		String content = "<input type=\"button\" value=\"會員區首頁\" onclick=\"location.href='http://localhost:8080/platfrom/member/vipindex.jsp'\">";
 		try {
 			out.print(content);
 		} catch (IOException e) {

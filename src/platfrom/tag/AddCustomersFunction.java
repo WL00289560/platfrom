@@ -35,11 +35,11 @@ public class AddCustomersFunction {
 			pre.setString(5, customers.getCountry());
 			int r = pre.executeUpdate();
 			if(r != 0) {
-				message = String.format("客戶編號:%d <br/> 公司名稱:%s <br/> 新增成功", customers.getCustomerId(),customers.getCompanyName());
+				message = String.format("客戶:%d 新增成功", customers.getCustomerId(),customers.getCompanyName());
 				}
 			
 		} catch (SQLException e) {
-				message = String.format("客戶:%d <br/> 新增失敗..%s", customers.getCustomerId(),e.getMessage());
+				message = String.format("客戶:%d 新增失敗..%s", customers.getCustomerId(),e.getMessage());
 			
 		}
 		finally {

@@ -7,7 +7,7 @@
 <meta charset="UTF-8">
 <title>錯誤管制中心</title>
 </head>
-<body background="images/background.jpg" bgcolor="#738291">
+<body>
 	<% String message = exception.getMessage(); %>	
 	<h1>拋出NumberFormatException 轉移此頁面</h1>
 	<br/>

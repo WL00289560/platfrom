@@ -7,7 +7,7 @@
 <meta charset="UTF-8">
 <title>新增客戶</title>
 </head>
-<body background="../images/background.jpg" bgcolor="#738291">
+<body>
 	<fieldset>
 		<legend>客戶新增</legend>
 			<form method="post" action="customerssave.jsp">
@@ -22,7 +22,7 @@
 				<div>國家</div>
 				<input type="text" name="country">
 				<br/>
-				<input type="submit" value="新增" style="width:100px;height:40px">
+				<input type="submit" value="新增">
 		</form>
 	</fieldset>
 	<br/>

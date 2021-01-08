@@ -42,6 +42,4 @@
 	<location>/errorpage500.jsp</location>
 	</error-page>
 	
-
-	
 </web-app>

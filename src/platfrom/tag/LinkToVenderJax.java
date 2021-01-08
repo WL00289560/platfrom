@@ -19,7 +19,7 @@ public class LinkToVenderJax implements Tag{
 	@Override
 	public int doStartTag() throws JspException {
 		JspWriter out = pageContext.getOut();
-		String content = "<input type=\"button\" value=\"搜尋廠商資料頁面(分散式架構)\" style=\"height:40px\" onclick=\"location.href='http://localhost:8080/platfrom/member/venderselectjax.jsp'\">";
+		String content = "<input type=\"button\" value=\"搜尋廠商資料頁面(分散式架構)\" onclick=\"location.href='http://localhost:8080/platfrom/member/venderselectjax.jsp'\">";
 		try {
 			out.print(content);
 		} catch (IOException e) {
